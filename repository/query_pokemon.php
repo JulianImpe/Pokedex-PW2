@@ -6,7 +6,8 @@ $conexion = new PokedexBD(
     $config['server'],
     $config['username'],
     $config['password'],
-    $config['database']
+    $config['database'],
+    3307
 ) or die("Problemas con la conexion");
 
 
@@ -25,6 +26,7 @@ $result = $conexion->query($traerListaPokemons);
 
 
 $traerListaPokemonsArrays = $result;
+//$traerListaPokemonsArrays = $result->fetch_all(MYSQLI_ASSOC);
 
 
 $conexion->close();

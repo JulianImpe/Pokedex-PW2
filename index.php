@@ -8,8 +8,10 @@ foreach($traerListaPokemonsArrays as $pokemon){
     echo "<td>" . $pokemon["numero_identificador"] . "</td>";
     echo "<td>" . $pokemon["nombre"] . "</td>";
     echo "<td>" . $pokemon["descripcion"] . "</td>";
-    echo "<img src='$pokemon[imagen_ruta]'> </img>";
-    echo "<img src='$pokemon[imagen_ruta_tipo]'> </img>";
+    echo "<td><img src='{$pokemon['imagen_ruta']}' /></td>";
+    echo "<td><img src='{$pokemon['imagen_ruta_tipo']}' /></td>";
+
+
     echo "</tr>";
 }
 echo "</table>";
