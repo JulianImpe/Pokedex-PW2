@@ -32,10 +32,12 @@
     height: 60px;
     width: auto;
     transition: transform 0.3s ease;
+    border-radius: 18%;
 }
 
 .logo:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .titulo {

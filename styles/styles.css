@@ -9,16 +9,26 @@ body {
 }
 
 .agregar-pokemon {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
     padding: 10px 20px;
-    background-color: #ffcc00;
+    background-color: #f7e28c;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+    margin: 2rem;
+}
+.buscador-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
 }
 
 .agregar-pokemon:hover {
-    background-color: #ffaa00;
+    transform: scale(1.05);
 }
 
 
@@ -118,7 +128,7 @@ body{
     object-fit: contain;
 }
 
-.editar-pokemon, .eliminar-pokemon, .ver-detalle {
+.editar-pokemon, .eliminar-pokemon, .ver-detalle, .boton-buscar{
     padding: 6px 12px;
     margin: 2px;
     border: none;
@@ -129,22 +139,45 @@ body{
 }
 
 .editar-pokemon {
-    background-color: #012e75;
-    color: white;
+    background-color: #f6c1ed;
+    color: black;
 }
 
 .eliminar-pokemon {
-    background-color: #f44336;
-    color: white;
+    background-color: #f59289;
+    color: black;
 }
 .ver-detalle {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #f7e28c;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     display: inline-block;
 }
 
-.editar-pokemon:hover, .eliminar-pokemon:hover {
+.boton-buscar{
+    background-color: #f6c1ed;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 16px;
+}
+.buscador{
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.error{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.editar-pokemon:hover, .eliminar-pokemon:hover, .ver-detalle:hover, .boton-buscar:hover{
     transform: scale(1.05);
 }
 
