@@ -1,3 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.agregar-pokemon {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.agregar-pokemon:hover {
+    background-color: #ffaa00;
+}
+
+
 .grid-container{
     width: 100%;
     margin: auto;
@@ -70,7 +94,7 @@ body{
     overflow: hidden;
 }
 
-.pokemon-table th, 
+.pokemon-table th,
 .pokemon-table td {
     border: 1px solid #ddd;
     padding: 12px;
@@ -126,13 +150,12 @@ body{
 
 
 
-/* 🔹 Responsive */
 @media (max-width: 768px) {
-    .pokemon-table, 
-    .pokemon-table thead, 
-    .pokemon-table tbody, 
-    .pokemon-table th, 
-    .pokemon-table td, 
+    .pokemon-table,
+    .pokemon-table thead,
+    .pokemon-table tbody,
+    .pokemon-table th,
+    .pokemon-table td,
     .pokemon-table tr {
         display: block;
         width: 100%;

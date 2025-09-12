@@ -9,7 +9,7 @@ $conexion = new PokedexBD(
     $config['username'],
     $config['password'],
     $config['database'],
-    3307
+    3306
 ) or die("Problemas con la conexión");
 
 // Manejo de búsqueda
@@ -29,9 +29,11 @@ echo "<html lang='es'>";
 echo "<head>";
 echo "<meta charset='UTF-8'>";
 echo "<title>Pokédex</title>";
-echo "<link rel='stylesheet' href='style.css'>";
+echo "<link rel='stylesheet' href='styles/styles.css'>";
 echo "</head>";
 echo "<body>";
+
+include "views/layout/header.php";
 echo "<h1 class='title'>Pokédex</h1>";
 
 echo "<form method='get' action='index.php'>
@@ -88,6 +90,8 @@ foreach ($pokemons as $pokemon) {
           <path fill='currentColor' d='M7 21q-.825 0-1.412-.587T5 19V6q-.425 0-.712-.288T4 5t.288-.712T5 4h4q0-.425.288-.712T10 3h4q.425 0 .713.288T15 4h4q.425 0 .713.288T20 5t-.288.713T19 6v13q0 .825-.587 1.413T17 21zM17 6H7v13h10zm-7 11q.425 0 .713-.288T11 16V9q0-.425-.288-.712T10 8t-.712.288T9 9v7q0 .425.288.713T10 17m4 0q.425 0 .713-.288T15 16V9q0-.425-.288-.712T14 8t-.712.288T13 9v7q0 .425.288.713T14 17M7 6v13z'/>
           </svg></button>";
 
+
+
     echo "</td>";
     echo "</tr>";
 }
@@ -97,6 +101,12 @@ echo "</table>";
 
 $conexion->close();
 echo "</div>"; // Cerramos grid-container
+echo '<div style="margin-top:20px;">';
+echo '<button class="agregar-pokemon" onclick="window.location.href=\'agregarPokemon.php\'">Agregar Pokémon</button>';
+echo '</div>';
 echo "</body>";
+
+include 'views/layout/footer.php';
+
 echo "</html>";
 ?>

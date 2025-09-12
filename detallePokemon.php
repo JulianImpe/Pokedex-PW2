@@ -1,5 +1,5 @@
 <?php
-
+include "./repository/PokedexBD.php";
 include "./repository/query_pokemon.php";
 //include "header".php
 echo "<link rel='stylesheet' href='styles/detallePokemon.css'>";

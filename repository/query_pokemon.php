@@ -2,12 +2,12 @@
 
 $config = parse_ini_file("./config/config.ini");
 
-$conexion = new PokedexBD(
+$conexion= new PokedexBD(
     $config['server'],
     $config['username'],
     $config['password'],
     $config['database'],
-    3307
+    3306
 ) or die("Problemas con la conexion");
 
 
