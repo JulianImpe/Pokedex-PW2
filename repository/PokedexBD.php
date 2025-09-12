@@ -12,10 +12,15 @@ class PokedexBD
     {
         $this->conexion->close();
     }
-    public function query($string)
-    {
-        $result = $this->conexion->query($string);
+public function query($string)
+{
+    $result = $this->conexion->query($string);
+    // Si la query devolvió un resultset (ej: SELECT)
+    if ($result instanceof mysqli_result) {
         return $result->fetch_all(MYSQLI_ASSOC);
     }
+    // Para INSERT, UPDATE, DELETE simplemente devolvemos true/false
+    return $result;
+}
 
 }
