@@ -1,6 +1,7 @@
 <?php
 include_once "./repository/PokedexBD.php";
 include_once "./repository/query_pokemon.php";
+echo "<link rel='stylesheet' href='styles/styles.css'>";
 
 $config = parse_ini_file("./config/config.ini");
 
