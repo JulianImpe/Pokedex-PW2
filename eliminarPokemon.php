@@ -1,13 +1,26 @@
 <?php
-$id = $_GET['id'];
-include "./repository/PokedexBD.php";
-include "./repository/query_pokemon.php";
+include_once "./repository/PokedexBD.php";
+include_once "./repository/query_pokemon.php";
+
+// Configuración de la conexión
+$config = parse_ini_file("./config/config.ini");
+/*$conexion = new PokedexBD(
+    $config['server'],
+    $config['username'],
+    $config['password'],
+    $config['database'],
+    3307
+);*/
+
+// Verificamos si llega el ID por GET
+if (isset($_GET['id'])) {
+    $id = (int) $_GET['id'];
     eliminarPokemon($conexion, $id);
-    header("Location: /pokedex/index.php");
-    exit();
+}
 
+// Cerramos conexión
+//$conexion->close();
 
-//Importante para no ir a eliminarPokemon.php?id=1 y quedarse ahi, 
-//sino que redirige a index.php
-
-?>
+// Redirigimos al index
+header("Location: /Pokedex/Pokedex-PW2/index.php");
+exit;

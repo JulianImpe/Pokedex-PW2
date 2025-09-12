@@ -9,7 +9,7 @@ $conexion = new PokedexBD(
     $config['username'],
     $config['password'],
     $config['database'],
-    3306
+    3307
 ) or die("Problemas con la conexión");
 
 // Manejo de búsqueda
@@ -69,7 +69,7 @@ foreach ($pokemons as $pokemon) {
     echo "<td>" . htmlspecialchars($pokemon["nombre"]) . "</td>";
     // Acciones
     echo "<td>";
-    echo "<div alt='Ver Detalle' class='ver-detalle' id='pokemon-" . $pokemon["numero_identificador"] . "' onclick='window.location.href=\"/pokedex/detallePokemon.php?id=" . $pokemon["numero_identificador"] . "\"'>
+    echo "<div alt='Ver Detalle' class='ver-detalle' id='pokemon-" . $pokemon["numero_identificador"] . "' onclick='window.location.href=\"/Pokedex/Pokedex-PW2/detallePokemon.php?id=" . $pokemon["numero_identificador"] . "\"'>
           <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 48 48'>
           <g fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='4'>
           <path d='M39 4H11a2 2 0 0 0-2 2v36a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M17 30h14m-14 6h7'/>
@@ -85,7 +85,7 @@ foreach ($pokemons as $pokemon) {
           </g></g>
           </svg></button>";
 
-    echo "<button alt='Eliminar' class='eliminar-pokemon' onclick='window.location.href=\"/pokedex/eliminarPokemon.php?id=" . $pokemon["numero_identificador"] . "\"'>
+    echo "<button alt='Eliminar' class='eliminar-pokemon' onclick='window.location.href=\"/Pokedex/Pokedex-PW2/eliminarPokemon.php?id=" . $pokemon["numero_identificador"] . "\"'>
           <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'>
           <path fill='currentColor' d='M7 21q-.825 0-1.412-.587T5 19V6q-.425 0-.712-.288T4 5t.288-.712T5 4h4q0-.425.288-.712T10 3h4q.425 0 .713.288T15 4h4q.425 0 .713.288T20 5t-.288.713T19 6v13q0 .825-.587 1.413T17 21zM17 6H7v13h10zm-7 11q.425 0 .713-.288T11 16V9q0-.425-.288-.712T10 8t-.712.288T9 9v7q0 .425.288.713T10 17m4 0q.425 0 .713-.288T15 16V9q0-.425-.288-.712T14 8t-.712.288T13 9v7q0 .425.288.713T14 17M7 6v13z'/>
           </svg></button>";
