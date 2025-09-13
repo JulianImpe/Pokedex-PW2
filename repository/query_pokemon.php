@@ -1,6 +1,6 @@
 <?php
 
-$config = parse_ini_file("./config/config.ini");
+$config = parse_ini_file(__DIR__ . "/../config/config.ini");
 
 $conexion= new PokedexBD(
     $config['server'],
