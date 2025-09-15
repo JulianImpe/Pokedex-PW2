@@ -104,8 +104,7 @@ echo "</table>";
 $conexion->close();
 echo "</div>"; // Cerramos grid-container
 echo '<div style="margin-top:20px;">';
-
-echo '</div>';
+echo '<button class="agregar-pokemon" onclick="window.location.href=\'views/agregarPokemon.php\'">Agregar Pokémon</button>';echo '</div>';
 echo "</body>";
 
 include 'views/layout/footer.php';
