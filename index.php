@@ -36,7 +36,7 @@ echo "<body>";
 include "views/layout/header.php";
 echo "<h1 class='title'>Pokédex</h1>";
 echo '<div class="buscador-container">';
-echo '<button class="agregar-pokemon" onclick="window.location.href=\'agregarPokemon.php\'">Agregar Pokémon</button>';
+echo '<button class="agregar-pokemon" onclick="window.location.href=\'views/agregarPokemon.php\'">Agregar Pokémon</button>';echo '</div>';
 echo "<form method='get' action='index.php'>
         <input class='buscador' type='text' name='busqueda' placeholder='Buscar por nombre o número'>
         <button class='boton-buscar' type='submit'>Buscar</button>
@@ -104,7 +104,7 @@ echo "</table>";
 $conexion->close();
 echo "</div>"; // Cerramos grid-container
 echo '<div style="margin-top:20px;">';
-echo '<button class="agregar-pokemon" onclick="window.location.href=\'views/agregarPokemon.php\'">Agregar Pokémon</button>';echo '</div>';
+
 echo "</body>";
 
 include 'views/layout/footer.php';
