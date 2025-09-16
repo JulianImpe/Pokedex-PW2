@@ -1,6 +1,7 @@
 <?php
 include_once "./repository/PokedexBD.php";
 include_once "./repository/query_pokemon.php";
+session_start();
 
 $config = parse_ini_file("./config/config.ini");
 
@@ -34,6 +35,9 @@ echo "</head>";
 echo "<body>";
 
 include "views/layout/header.php";
+
+echo "Hola " . $_SESSION['nombre'] . " ";
+
 echo "<h1 class='title'>Pokédex</h1>";
 
 echo "<form method='get' action='index.php'>

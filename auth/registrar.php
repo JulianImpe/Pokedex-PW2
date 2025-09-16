@@ -3,7 +3,7 @@ echo"<h1>Registrarse</h1>";
 
 echo"<form method='post' action='login.php'>";
 
-echo"<input type='text' name='nombre' placeholder='Nombre'>";
+echo"<input type='text' name='nombre'  placeholder='Nombre'>";
 echo"<input type='password' name='contraseña' placeholder='contraseña'>";
 
 
