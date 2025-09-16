@@ -7,7 +7,7 @@ $conexion= new PokedexBD(
     $config['username'],
     $config['password'],
     $config['database'],
-    3306
+    3307
 ) or die("Problemas con la conexion");
 
 
