@@ -1,0 +1,22 @@
+[
+    {
+        "nombre": "Goyo",
+        "contrase\u00f1a": "123",
+        "rol": "admin"
+    },
+    {
+        "nombre": "Gonza",
+        "contrase\u00f1a": "123",
+        "rol": "admin"
+    },
+    {
+        "nombre": "pepito",
+        "contrase\u00f1a": "123456",
+        "rol": "admin"
+    },
+    {
+        "nombre": "tori",
+        "contrase\u00f1a": "7777",
+        "rol": "admin"
+    }
+]
