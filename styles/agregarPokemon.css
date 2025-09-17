@@ -17,7 +17,7 @@ body {
 .titulo-agregar {
     text-align: center;
     font-size: 2rem;
-    color: #3b4cca;
+    color: #f6c1ed;
     margin-bottom: 25px;
 }
 
@@ -42,7 +42,7 @@ body {
 .campo-formulario textarea {
     padding: 10px;
     border-radius: 10px;
-    border: 2px solid #3b4cca;
+    border: 2px solid #f27edf;
     font-size: 1rem;
     transition: all 0.3s ease;
 }
@@ -50,8 +50,8 @@ body {
 .campo-formulario input:focus,
 .campo-formulario textarea:focus {
     outline: none;
-    border-color: #0227fa;
-    box-shadow: 0 0 10px rgba(255, 28, 28, 0.5);
+    border-color: #f27edf;
+    box-shadow: 0 0 10px rgba(206, 28, 255, 0.5);
 }
 
 .botones-formulario {
@@ -76,7 +76,7 @@ body {
 }
 
 .boton-agregar {
-    background: linear-gradient(45deg, #0227fa, #1357ef);
+    background: linear-gradient(45deg, #e75ad0, #f6c1ed);
     box-shadow: 0 5px 15px rgba(50, 145, 134, 0.5);
 }
 
