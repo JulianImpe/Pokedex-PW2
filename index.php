@@ -79,7 +79,7 @@ foreach ($pokemons as $pokemon) {
         </g>
         </svg></div>";
 
-    echo "<button alt='Editar' class='editar-pokemon'>
+    echo "<button alt='Editar' class='editar-pokemon' onclick='window.location.href=\"/pokedex/editarPokemon.php?id=" . $pokemon["numero_identificador"] . "\"'>
         <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'>
         <g class='edit-outline'><g fill='currentColor' fill-rule='evenodd' class='Vector' clip-rule='evenodd'>
         <path d='M2 6.857A4.857 4.857 0 0 1 6.857 2H12a1 1 0 1 1 0 2H6.857A2.857 2.857 0 0 0 4 6.857v10.286A2.857 2.857 0 0 0 6.857 20h10.286A2.857 2.857 0 0 0 20 17.143V12a1 1 0 1 1 2 0v5.143A4.857 4.857 0 0 1 17.143 22H6.857A4.857 4.857 0 0 1 2 17.143z'/>
