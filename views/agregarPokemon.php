@@ -1,8 +1,8 @@
 <?php
-include_once __DIR__ . "/../repository/PokedexBD.php"; // Conexión a la DB
+include_once __DIR__ . "/../repository/PokedexBD.php";
 include_once __DIR__ . "/../repository/query_pokemon.php";
 
-// Incluir CSS
+
 echo "<link rel='stylesheet' href='../styles/agregarPokemon.css'>";
 echo "<body>";
 ?>
