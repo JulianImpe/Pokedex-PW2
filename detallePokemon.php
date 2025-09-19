@@ -3,6 +3,7 @@ include "./repository/PokedexBD.php";
 include "./repository/query_pokemon.php";
 //include "header".php
 echo "<link rel='stylesheet' href='styles/detallePokemon.css'>";
+echo "<meta name='viewport' content='width=device-width, initial-scale=1.0'>";
 echo "<body>";
 $id = $_GET['id'];
 
