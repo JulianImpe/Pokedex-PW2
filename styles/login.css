@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, hotpink, pink);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 35px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+h1 {
+    color: hotpink;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid pink;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: hotpink;
+    box-shadow: 0 0 8px rgba(255,105,180,0.6);
+}
+
+button {
+    width: 95%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: hotpink;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: deeppink;
+}
+
+p[style*="red"] {
+    color: crimson !important;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+a {
+    color: hotpink;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -18,5 +18,45 @@
         "nombre": "tori",
         "contrase\u00f1a": "7777",
         "rol": "admin"
+    },
+    {
+        "nombre": "Gonza2",
+        "contrase\u00f1a": "123",
+        "rol": "usuario"
+    },
+    {
+        "nombre": "Goyoo",
+        "contrase\u00f1a": "123",
+        "rol": "admin"
+    },
+    {
+        "nombre": "Gonzaaaaaa",
+        "contrase\u00f1a": "123",
+        "rol": "usuario"
+    },
+    {
+        "nombre": "gonzamirko",
+        "contrase\u00f1a": "1234",
+        "rol": "admin"
+    },
+    {
+        "nombre": "torii",
+        "contrase\u00f1a": "1234",
+        "rol": "admin"
+    },
+    {
+        "nombre": "gonzamirko",
+        "contrase\u00f1a": "1234",
+        "rol": "admin"
+    },
+    {
+        "nombre": "Gonza",
+        "contrase\u00f1a": "123",
+        "rol": "admin"
+    },
+    {
+        "nombre": "pepito0",
+        "contrase\u00f1a": "123",
+        "rol": "admin"
     }
 ]

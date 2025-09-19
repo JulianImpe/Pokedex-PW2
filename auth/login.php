@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='../styles/login.css'>";
 session_start();
 
 if($_SERVER['REQUEST_METHOD'] === 'POST'){
@@ -17,6 +18,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
         if($usuario['nombre'] === $nombre && $usuario['contraseña'] === $contraseña){
             $_SESSION['nombre'] = $usuario['nombre'];
             $_SESSION['rol'] = $usuario['rol'];
+            //$_SESSION['contraseña'] = $usuario['contraseña'];
             $usuarioValido = true;
             break;
         }
@@ -37,6 +39,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 ?>
 
 <h1>Iniciar Sesión</h1>
+<br>
 
 <?php if(isset($error)) echo "<p style='color:red;'>$error</p>"; ?>
 
@@ -46,4 +49,4 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     <button>Ingresar</button>
 </form>
 
-<p>¿No tienes cuenta? <a href="registro.php">Registrarse</a></p>
+<p>¿No tienes cuenta? <a href="registrar.php">Registrarse</a></p>
