@@ -98,11 +98,15 @@ function eliminarPokemon($conexion, $id)
     $conexion->query($sql);
     $conexion->close();
 }
-function editarPokemon($conexion, $id, $nombre, $descripcion, $numero_identificador, $tipo_id, $imagen_ruta)
+function editarPokemon($conexion, $id, $nombre, $descripcion, $tipo_id, $imagen_ruta)
 {
     $sql = "UPDATE pokemon 
-            SET nombre = '$nombre', descripcion = '$descripcion', numero_identificador = '$numero_identificador', tipo_id = '$tipo_id', imagen_ruta = '$imagen_ruta' 
+            SET nombre = '$nombre', descripcion = '$descripcion', tipo_id = '$tipo_id', imagen_ruta = '$imagen_ruta' 
             WHERE id = $id";
     $conexion->query($sql);
     $conexion->close();
+}
+function traerTipos($conexion) {
+    $sql = "SELECT id, nombre FROM tipos ORDER BY id";
+    return $conexion->query($sql);
 }
