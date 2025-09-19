@@ -1,13 +1,22 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, hotpink, pink);
+*{
     margin: 0;
     padding: 0;
+}
+.div-iniciar-sesion{
+    font-family: Arial, sans-serif;
+    /*background: linear-gradient(135deg, #74b9ff, #0984e3);*/
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+}
+.form-class{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5rem;
+    font-size:1.5rem ;
 }
 
 .container {
@@ -75,4 +84,27 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+
+/* --- MEDIA QUERIES --- */
+@media (max-width: 600px) {
+    .form-class {
+        padding: 2rem; /* reduce el padding en móviles */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* reduce tamaño del título */
+    }
+
+    input[type="text"],
+    input[type="password"],
+    button {
+        font-size: 14px; /* reduce tamaño de fuentes */
+        padding: 10px;   /* reduce padding de inputs y botones */
+    }
+
+    .div-iniciar-sesion {
+        padding: 10px; /* agrega espacio alrededor del contenedor */
+    }
 }

@@ -1,5 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+</head>
+
 <?php
-echo "<link rel='stylesheet' href='../styles/login.css'>";
+//echo "<link rel='stylesheet' href='../styles/login.css'>";
+echo "<meta name='viewport' content='width=device-width, initial-scale=1.0'>";
 session_start();
 
 if($_SERVER['REQUEST_METHOD'] === 'POST'){
@@ -38,15 +49,29 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 }
 ?>
 
-<h1>Iniciar Sesión</h1>
-<br>
+<div class="div-iniciar-sesion">
+
+
+
+
 
 <?php if(isset($error)) echo "<p style='color:red;'>$error</p>"; ?>
 
-<form method="post" action="">
+<form method="post" action="" class="form-class">
+    <h1>Iniciar Sesión</h1>
+    <br>
     <input type="text" name="nombre" placeholder="Nombre" required><br>
     <input type="password" name="contraseña" placeholder="Contraseña" required><br>
     <button>Ingresar</button>
+    <br>
+    <br>
+    <p>¿No tienes cuenta? <a href="registrar.php"> Registrarse</a></p>
 </form>
 
-<p>¿No tienes cuenta? <a href="registrar.php">Registrarse</a></p>
+
+
+</div>
+<?php
+include('../views/layout/footer.php');
+echo "<link rel='stylesheet' href='../styles/footer.css'>"
+?>
