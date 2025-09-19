@@ -4,23 +4,21 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .agregar-container {
-    max-width: 500px;
+    max-width: 200px;
+    height: auto;
     margin: 40px auto;
     padding: 30px;
     background-color: #fff;
     border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
-
 .titulo-agregar {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #f6c1ed;
     margin-bottom: 25px;
 }
-
 .formulario-pokemon {
     display: flex;
     flex-direction: column;
@@ -43,7 +41,6 @@ body {
     padding: 10px;
     border-radius: 10px;
     border: 2px solid #f27edf;
-    font-size: 1rem;
     transition: all 0.3s ease;
 }
 
@@ -72,6 +69,7 @@ body {
     transition: all 0.3s ease;
     text-align: center;
     text-decoration: none;
+    align-content: center;
     color: #fff;
 }
 
@@ -95,19 +93,91 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(59, 76, 202, 0.6);
 }
+input {
+    height: 50px;
+}
+label {
+    font-size: 0.8rem;
+}
 
-
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 47em){
     .agregar-container {
-        margin: 20px;
-        padding: 20px;
+        max-width: 500px;
+        height: auto;
+        margin: 40px auto;
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     }
 
     .titulo-agregar {
-        font-size: 1.6rem;
+        text-align: center;
+        font-size: 2rem;
+        color: #f6c1ed;
+        margin-bottom: 25px;
     }
 
-    .botones-formulario {
-        flex-direction: column;
+    .campo-formulario input,
+    .campo-formulario textarea {
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid #f27edf;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+    .agregar-container {
+        max-width: 300px;
+        margin: 40px auto;
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .titulo-agregar {
+        text-align: center;
+        font-size: 2rem;
+        color: #f6c1ed;
+        margin-bottom: 25px;
+    }
+
+    .campo-formulario input,
+    .campo-formulario textarea {
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid #f27edf;
+        transition: all 0.3s ease;
+    }
+}
+
+
+@media screen and (min-width: 60em) {
+
+    .agregar-container {
+        max-width: 500px;
+        margin: 40px auto;
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .titulo-agregar {
+        text-align: center;
+        font-size: 2rem;
+        color: #f6c1ed;
+        margin-bottom: 25px;
+    }
+
+    .campo-formulario input,
+    .campo-formulario textarea {
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid #f27edf;
+        font-size: 1rem;
+        transition: all 0.3s ease;
     }
 }
