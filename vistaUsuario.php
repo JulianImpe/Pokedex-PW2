@@ -36,7 +36,7 @@ echo "<body>";
 
 include "views/layout/header.php";
 
-echo "Hola " . $_SESSION['nombre'] . " ";
+echo "Hola " . $_SESSION['usuario'] . " ";
 
 
 

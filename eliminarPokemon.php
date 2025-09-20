@@ -1,9 +1,9 @@
 <?php
-$id = $_GET['id'];
+$id = $_POST['id'];
 include "./repository/PokedexBD.php";
 include "./repository/query_pokemon.php";
     eliminarPokemon($conexion, $id);
-    header("Location: /Pokedex/Pokedex-PW2/index.php");
+    header("Location: /Pokedex/index.php");
     exit();
 
 

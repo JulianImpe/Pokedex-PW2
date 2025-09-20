@@ -3,6 +3,25 @@ include_once "./repository/PokedexBD.php";
 include_once "./repository/query_pokemon.php";
 session_start();
 
+
+
+
+// ----------------------
+if (!isset($_SESSION['usuario']) || !isset($_SESSION['rol'])) {
+    // Si no hay sesión o no hay rol definido, vamos al login
+    header("Location: /pokedex/auth/login.php");
+    exit();
+}
+
+switch ($_SESSION['rol']) {
+    case 'usuario':
+        header("Location: /pokedex/vistaUsuario.php");
+        exit();
+    case 'admin':
+        // Admin se queda en index.php
+        break;
+}
+
 $config = parse_ini_file("./config/config.ini");
 
 $conexion = new PokedexBD(
@@ -36,16 +55,18 @@ echo "<body>";
 
 include "views/layout/header.php";
 
-echo "Hola " . $_SESSION['nombre'] . " ";
+echo "Hola " . $_SESSION['usuario'] . " ";
+
 
 if (!isset($_SESSION['usuario'])) {
     header("Location: /pokedex/auth/login.php");
     exit();
 }
-if(isset($_SESSION['rol']) && $_SESSION['rol'] == 'usuario' && $_SESSION['rol'] != 'admin'){
-    header("Location: /pokedex/vistaUsuario.php");
-    exit;
-}
+//if(isset($_SESSION['rol']) && $_SESSION['rol'] == 'usuario' && $_SESSION['rol'] != 'admin'){
+  //  header("Location: /pokedex/vistaUsuario.php");
+    //exit;
+//}
+
 
 echo "<h1 class='title'>Pokédex</h1>";
 echo '<div class="buscador-container">';
@@ -100,12 +121,17 @@ foreach ($pokemons as $pokemon) {
         </g></g>
         </svg></button>";
 
-    echo "<button alt='Eliminar' class='eliminar-pokemon' onclick='window.location.href=\"/pokedex/eliminarPokemon.php?id=" . $pokemon["numero_identificador"] . "\"'>
-          <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'>
-          <path fill='currentColor' d='M7 21q-.825 0-1.412-.587T5 19V6q-.425 0-.712-.288T4 5t.288-.712T5 4h4q0-.425.288-.712T10 3h4q.425 0 .713.288T15 4h4q.425 0 .713.288T20 5t-.288.713T19 6v13q0 .825-.587 1.413T17 21zM17 6H7v13h10zm-7 11q.425 0 .713-.288T11 16V9q0-.425-.288-.712T10 8t-.712.288T9 9v7q0 .425.288.713T10 17m4 0q.425 0 .713-.288T15 16V9q0-.425-.288-.712T14 8t-.712.288T13 9v7q0 .425.288.713T14 17M7 6v13z'/>
-          </svg></button>";
 
 
+    echo '<form method="POST" action="/pokedex/views/confirmarEliminar.php" style="display:inline;">
+        <input type="hidden" name="id" value="' . $pokemon['numero_identificador'] . '">
+        <input type="hidden" name="nombre" value="' . htmlspecialchars($pokemon['nombre'], ENT_QUOTES) . '">
+        <button type="submit" alt="Eliminar" class="eliminar-pokemon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M7 21q-.825 0-1.412-.587T5 19V6q-.425 0-.712-.288T4 5t.288-.712T5 4h4q0-.425.288-.712T10 3h4q.425 0 .713.288T15 4h4q.425 0 .713.288T20 5t-.288.713T19 6v13q0 .825-.587 1.413T17 21zM17 6H7v13h10zm-7 11q.425 0 .713-.288T11 16V9q0-.425-.288-.712T10 8t-.712.288T9 9v7q0 .425.288.713T10 17m4 0q.425 0 .713-.288T15 16V9q0-.425-.288-.712T14 8t-.712.288T13 9v7q0 .425.288.713T14 17M7 6v13z"/>
+            </svg>
+        </button>
+      </form>';
 
     echo "</td>";
     echo "</tr>";

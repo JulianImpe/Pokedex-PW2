@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+/* Contenedor flexible */
+.container {
+    background: #fff;
+    padding: 30px;
+    margin: auto;
+    max-width: 400px;   /* en vez de width fijo */
+    width: 90%;         /* se ajusta en móviles */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px hotpink;
+}
+
+h3 {
+    color: deeppink;
+    margin-bottom: 20px;
+}
+
+p.warning {
+    color: #f6c1ed;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+form {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+button {
+    background-color: lightgrey;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.btn-danger {
+    background-color: hotpink;
+    color: #fff;
+}
+
+.btn-cancel {
+    background-color: rgba(184, 170, 170, 0.42);
+    color: #fff;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 480px) {
+    body {
+        padding: 15px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    form {
+        display: block;
+        margin: 10px auto;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
