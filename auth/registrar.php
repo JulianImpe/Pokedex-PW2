@@ -64,10 +64,10 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     <input type="radio" name="rol" value="usuario" class="input-radio" >Usuario<br>-->
     <div class="rol-container">
         <label>
-            <input type="radio" name="rol" value="admin"> Administrador
+            <input type="radio" name="rol" value="admin" required> Administrador
         </label>
         <label>
-            <input type="radio" name="rol" value="usuario"> Usuario
+            <input type="radio" name="rol" value="usuario" required> Usuario
         </label>
     </div>
 

@@ -11,9 +11,8 @@ echo "<div class='center'>";
 echo "</div>";
 
 echo "<div class='right'>";
-echo "<a href='/Pokedex/Pokedex-PW2/auth/usuario.php' class='nav-link'>Usuario ADMIN</a>";
-echo "<a href='/Pokedex/Pokedex-PW2/auth/registrar.php' class='nav-link'>Registrar</a>";
-echo "<a href='/Pokedex/Pokedex-PW2/auth/login.php' class='nav-link'>Loguearse</a>";
+echo "<a href='/pokedex/auth/registrar.php' class='nav-link'>Registrar</a>";
+echo "<a href='/pokedex/auth/login.php' class='nav-link'>Loguearse</a>";
 echo "</div>";
 
 echo "</header>";

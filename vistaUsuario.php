@@ -10,7 +10,7 @@ $conexion = new PokedexBD(
     $config['username'],
     $config['password'],
     $config['database'],
-    3307
+    3306
 ) or die("Problemas con la conexión");
 
 // Manejo de búsqueda
@@ -45,7 +45,7 @@ echo "<h1 class='title'>Pokédex</h1>";
 echo "<form method='get' action='index.php'>
         <input type='text' name='busqueda' placeholder='Buscar por nombre o número'>
         <button type='submit'>Buscar</button>
-      </form>";
+    </form>";
 
 // Grid container
 echo "<div class='grid-container'>";
@@ -58,9 +58,9 @@ echo "<thead>
             <th>Tipo</th>
             <th>Número</th>
             <th>Nombre</th>
-           
+        
         </tr>
-      </thead>";
+    </thead>";
 echo "<tbody>";
 
 foreach ($pokemons as $pokemon) {
@@ -95,4 +95,3 @@ $conexion->close();
 include 'views/layout/footer.php';
 
 echo "</html>";
-?>

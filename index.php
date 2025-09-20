@@ -38,8 +38,12 @@ include "views/layout/header.php";
 
 echo "Hola " . $_SESSION['nombre'] . " ";
 
-if(isset($_SESSION['rol']) && $_SESSION['rol'] == 'usuario'){
-    header("Location: /Pokedex/Pokedex-PW2/vistaUsuario.php");
+if (!isset($_SESSION['usuario'])) {
+    header("Location: /pokedex/auth/login.php");
+    exit();
+}
+if(isset($_SESSION['rol']) && $_SESSION['rol'] == 'usuario' && $_SESSION['rol'] != 'admin'){
+    header("Location: /pokedex/vistaUsuario.php");
     exit;
 }
 

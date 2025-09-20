@@ -17,7 +17,7 @@ echo "<img class='type-icon-detalle' src='{$pokemon["imagen_ruta_tipo"]}' alt='T
 echo "</div>";
 echo "<div class='pokemon-description-detalle'>{$pokemon["descripcion"]}</div>";
 echo "</div>";
-echo "<a href='/Pokedex/Pokedex-PW2/index.php' class='boton-volver'> << Volver</a>";
+echo "<a href='/pokedex/index.php' class='boton-volver'> << Volver</a>";
 echo "</body>";
 ?>
 

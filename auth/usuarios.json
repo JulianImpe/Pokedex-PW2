@@ -58,5 +58,40 @@
         "nombre": "pepito0",
         "contrase\u00f1a": "123",
         "rol": "admin"
+    },
+    {
+        "nombre": "Julian Marcelo",
+        "contrase\u00f1a": "123",
+        "rol": null
+    },
+    {
+        "nombre": "marcelo imperiale",
+        "contrase\u00f1a": "456",
+        "rol": null
+    },
+    {
+        "nombre": "asd",
+        "contrase\u00f1a": "123",
+        "rol": null
+    },
+    {
+        "nombre": "papi",
+        "contrase\u00f1a": "123",
+        "rol": "admin"
+    },
+    {
+        "nombre": "Ivysauro",
+        "contrase\u00f1a": "123",
+        "rol": "admin"
+    },
+    {
+        "nombre": "dd",
+        "contrase\u00f1a": "123",
+        "rol": "admin"
+    },
+    {
+        "nombre": "Julian",
+        "contrase\u00f1a": "123",
+        "rol": "admin"
     }
 ]
