@@ -93,5 +93,60 @@
         "nombre": "Julian",
         "contrase\u00f1a": "123",
         "rol": "admin"
+    },
+    {
+        "nombre": "mew",
+        "contrase\u00f1a": "123",
+        "rol": "admin"
+    },
+    {
+        "nombre": "bulbasour",
+        "contrase\u00f1a": "12",
+        "rol": "usuario"
+    },
+    {
+        "nombre": "ccvv",
+        "contrase\u00f1a": "58",
+        "rol": "admin"
+    },
+    {
+        "nombre": "sddd",
+        "contrase\u00f1a": "1",
+        "rol": "admin"
+    },
+    {
+        "nombre": "c",
+        "contrase\u00f1a": "1",
+        "rol": "admin"
+    },
+    {
+        "nombre": "mewa",
+        "contrase\u00f1a": "5",
+        "rol": "admin"
+    },
+    {
+        "nombre": "cc",
+        "contrase\u00f1a": "c",
+        "rol": "admin"
+    },
+    {
+        "nombre": "dx",
+        "contrase\u00f1a": "x",
+        "rol": "admin"
+    },
+    {
+        "nombre": "cami",
+        "contrase\u00f1a": "123",
+        "rol": "admin"
+    },
+    {
+        "nombre": "mica",
+        "contrase\u00f1a": "123",
+        "rol": "usuario"
+    },
+    {
+        "nombre": "cccc",
+        "contrase\u00f1a": "1",
+        "rol": "usuario"
     }
 ]

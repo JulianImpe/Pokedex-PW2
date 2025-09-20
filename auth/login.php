@@ -27,8 +27,11 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
     foreach($usuarios as $usuario){
         if($usuario['nombre'] === $nombre && $usuario['contraseña'] === $contraseña){
-            $_SESSION['nombre'] = $usuario['nombre'];
-            $_SESSION['rol'] = $usuario['rol'];
+           $_SESSION['nombre'] = $usuario['nombre'];
+          //  $_SESSION['rol'] = $usuario['rol'];
+           // $_SESSION['usuario'] = $usuario['nombre'];
+            $_SESSION['rol'] = strtolower(trim($usuario['rol'])); // <- normalizado
+
             //$_SESSION['contraseña'] = $usuario['contraseña'];
             $usuarioValido = true;
             break;
