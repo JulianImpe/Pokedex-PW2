@@ -1,0 +1,77 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"1b973b79-eadf-43da-8817-a88d582b7969\" name=\"Changes\" comment=\"subo confirmarEliminar\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/auth/login.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/auth/login.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/auth/usuarios.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/auth/usuarios.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/eliminarPokemon.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/eliminarPokemon.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/img/47477tumblr_pb7gtrTYQ41v5pucyo5_250.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/vistaUsuario.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/vistaUsuario.php\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"CSS File\" />\r\n        <option value=\"PHP File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Merge.Settings\">\r\n    <option name=\"BRANCH\" value=\"main\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;camilalazaroavila&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/JulianImpe/Pokedex-PW2.git&quot;,\r\n    &quot;accountId&quot;: &quot;306d339f-f67c-44b6-b8ab-27e6781f157d&quot;\r\n  }\r\n}</component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/eliminarPokemon.php\" root0=\"FORCE_HIGHLIGHTING\" root1=\"SKIP_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"32oH0i4PZgr8eIFP6aicEdytbyy\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"list.type.of.created.stylesheet\": \"CSS\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PS-252.25557.128\" />\r\n        <option value=\"bundled-php-predefined-a98d8de5180a-ce40d0652d34-com.jetbrains.php.sharedIndexes-PS-252.25557.128\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"1b973b79-eadf-43da-8817-a88d582b7969\" name=\"Changes\" comment=\"\" />\r\n      <created>1758079798390</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1758079798390</updated>\r\n      <workItem from=\"1758079804512\" duration=\"38000\" />\r\n      <workItem from=\"1758303356609\" duration=\"9863000\" />\r\n      <workItem from=\"1758332740462\" duration=\"2824000\" />\r\n      <workItem from=\"1758493362890\" duration=\"2450000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"subo confirmarEliminar\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1758321195666</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1758321195666</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"subo confirmarEliminar\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1758321311431</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1758321311431</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"subo confirmarEliminar\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1758322829292</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1758322829292</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"uni lo de juli más la validación del eliminar\" />\r\n    <MESSAGE value=\"hice merge del de juli, más la validación del eliminar\" />\r\n    <MESSAGE value=\"subo confirmarEliminar\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"subo confirmarEliminar\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ccd05266733d43bb00671c060b8174223ef7ae91)
++++ b/.idea/workspace.xml	(date 1758497125807)
+@@ -4,15 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="1b973b79-eadf-43da-8817-a88d582b7969" name="Changes" comment="subo confirmarEliminar">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/auth/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/login.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/auth/usuarios.json" beforeDir="false" afterPath="$PROJECT_DIR$/auth/usuarios.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/eliminarPokemon.php" beforeDir="false" afterPath="$PROJECT_DIR$/eliminarPokemon.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/img/47477tumblr_pb7gtrTYQ41v5pucyo5_250.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/vistaUsuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/vistaUsuario.php" afterDir="false" />
+-    </list>
++    <list default="true" id="1b973b79-eadf-43da-8817-a88d582b7969" name="Changes" comment="cargo login y registrar  con validacion, mensaje registrar" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -76,6 +68,11 @@
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\xampp\htdocs\Pokedex\public\img" />
++    </key>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -94,7 +91,7 @@
+       <workItem from="1758079804512" duration="38000" />
+       <workItem from="1758303356609" duration="9863000" />
+       <workItem from="1758332740462" duration="2824000" />
+-      <workItem from="1758493362890" duration="2450000" />
++      <workItem from="1758493362890" duration="2770000" />
+     </task>
+     <task id="LOCAL-00001" summary="subo confirmarEliminar">
+       <option name="closed" value="true" />
+@@ -120,7 +117,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1758322829292</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="cargo login y registrar  con validacion, mensaje registrar">
++      <option name="closed" value="true" />
++      <created>1758497119578</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1758497119578</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -130,6 +135,9 @@
+     <MESSAGE value="uni lo de juli más la validación del eliminar" />
+     <MESSAGE value="hice merge del de juli, más la validación del eliminar" />
+     <MESSAGE value="subo confirmarEliminar" />
+-    <option name="LAST_COMMIT_MESSAGE" value="subo confirmarEliminar" />
++    <MESSAGE value="arreglamos bd, login, register" />
++    <MESSAGE value="cargo login y registrar  con validacion, confirmacion de eliminar" />
++    <MESSAGE value="cargo login y registrar  con validacion, mensaje registrar" />
++    <option name="LAST_COMMIT_MESSAGE" value="cargo login y registrar  con validacion, mensaje registrar" />
+   </component>
+ </project>
+\ No newline at end of file
