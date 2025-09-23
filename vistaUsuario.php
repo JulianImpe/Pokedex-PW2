@@ -42,9 +42,9 @@ echo "Hola " . $_SESSION['usuario'] . " ";
 
 echo "<h1 class='title'>Pokédex</h1>";
 
-echo "<form method='get' action='index.php'>
-        <input type='text' name='busqueda' placeholder='Buscar por nombre o número'>
-        <button type='submit'>Buscar</button>
+echo "<form method='get' action='vistaUsuario.php'>
+<input class='buscador' type='text' name='busqueda' placeholder='Buscar por nombre o número'>
+        <button class='boton-buscar' type='submit'>Buscar</button>
     </form>";
 
 // Grid container

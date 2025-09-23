@@ -188,5 +188,20 @@
         "nombre": "e",
         "contrase\u00f1a": "e",
         "rol": "admin"
+    },
+    {
+        "nombre": "juli",
+        "contrase\u00f1a": "123",
+        "rol": "admin"
+    },
+    {
+        "nombre": "usuario",
+        "contrase\u00f1a": "123",
+        "rol": "usuario"
+    },
+    {
+        "nombre": "gg",
+        "contrase\u00f1a": "gg",
+        "rol": "usuario"
     }
 ]
